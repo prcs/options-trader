@@ -3,7 +3,8 @@
 from typing import List, Dict, Optional
 from datetime import datetime
 from itertools import product
-from analyzer_iron_condor import avaliar_estrategia_iron_condor
+# Import ajustado para o módulo correto de análise do Iron Condor
+from iron_condor_analyzer import avaliar_estrategia_iron_condor
 
 def filtrar_opcoes_por_tipo_e_vencimento(lista: List[dict], tipo: str, vencimento: str) -> List[dict]:
     """
